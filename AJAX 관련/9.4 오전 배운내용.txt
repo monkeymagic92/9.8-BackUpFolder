@@ -1,0 +1,55 @@
+
+
+★ ★  	JSON / GSON  / AJAX 공부하기       ★★
+
+
+
+doGet 메소드
+request.setCharacterEncoding("UTF-8");
+response.setContentType("application/json");  // json 으로 날려 보내겠다
+PrintWriter out = response.getWriter();
+out.print("{\"name\": 1}");
+
+
+크롬에서 실행한후 f12눌러서 network 들어간다음 name 클릭후 안에 application 있는지 보기 
+
+
+
+
+
+
+axios 사용법
+
+1. 구글 = axios 검색
+
+2. 첫번째 github 들어간뒤 밑에 installing 항목에 CDN <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+복사한후 jsp 파일에 밑에 방식으로 하기
+
+왜냐 ? 위에 html 화면이 띄워진후 스크립트 부분을 하라는 의미로 ...
+(위치중요)
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+</sciprt>
+
+
+
+
+GSON 다운방법
+
+https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.6
+
+2.8.6 jar 파일 다운받기(COS랑 똑같음)
+
+톰캣 : 아파치 톰캣에 추가하는건 그냥 우리가 하는대로 jar 파일 복사해서 그대로 톰캣 lib 폴더에 넣으면되고
+
+프로젝트 : WEB-INF 아래 lib 폴더안에 jar파일 복사붙여넣기 하기 
+
+
+
+
+
+
+
+
